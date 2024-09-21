@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+/* Navigation Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    margin: 0 10px;
+    color: white;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+/* Logo Styles */
+.logo {
+    font-size: 2em;
+    color: white;
+    margin-right: 15px;
+}
+
+/* Main Container Styles */
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    width: 100%;
+}
+
+/* Article and Aside Styles */
+article {
+    flex: 2;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+/* Custom Styles inside <article> */
+article h2, article h3 {
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+}
+
+article p {
+    line-height: 1.6;
+    color: #555;
+}
+
+aside {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #4CAF50;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+/* Headings Styles */
+h1, h2, h3 {
+    color: #4CAF50;
+}
+
+/* Responsive Design for Smartphones */
+@media (max-width: 768px) {
+    body.works_on_smartphone {
+        flex-direction: column;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    article, aside {
+        flex: 1;
+        margin: 10px;
+    }
+
+    header ul {
+        flex-direction: column;
+    }
+
+    li {
+        margin: 10px 0;
+    }
+}
