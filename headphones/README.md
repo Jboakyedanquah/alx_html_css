@@ -6,6 +6,6 @@ This is a responsive web application for someone who is a complete beginner. Thi
 
 
 ## Tools Used
-- HTML5
-- CSS3
-- GitHub Pages for hosting
+- HTML
+- CSS
+- GitHub
